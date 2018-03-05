@@ -1,0 +1,17 @@
+/* Anicka Yi */
+
+body {
+  margin: 50px;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.series,
+.artist,
+.title,
+.date,
+.time,
+.location {
+  font-size: 100px;
+  line-height: 1;
+}
