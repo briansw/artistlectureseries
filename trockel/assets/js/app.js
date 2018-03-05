@@ -1,1 +1,1 @@
-// Anicka Yi
+// Rosemarie Trockel
