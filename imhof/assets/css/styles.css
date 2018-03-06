@@ -8,6 +8,7 @@ body {
   color: #3D3D3D;
   background-color: #000000;
   background-image: url('https://static2.giessener-allgemeine.de/storage/image/4/7/2/9/329274_artdetail_1orZxs_S7YReh.jpg');
+  
 }
 
 .text {
@@ -35,4 +36,23 @@ body {
 .time,
 .location {
   text-decoration: line-through;
+}
+
+
+.dior {
+  margin: 100px;
+  text-align: center;
+  font-family: 'helvetica';
+  font-size: 100px;
+  border: solid 10px #000;
+  width: 400px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #457;
 }
