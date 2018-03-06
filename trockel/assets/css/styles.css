@@ -8,19 +8,12 @@ body {
   font-family:'Germania One', cursive;
 
   text-align: center;
-  color: #fff;
-  background: linear-gradient(-90deg, #009,#000)
+  color: rgba(255, 255, 255, 0);
+  background: linear-gradient(-90deg, #009,#000);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
 }
 
-.head {
-  font-size: 20px;
-  text-transform: uppercase;
-  text-align: center;
-  display: table;
-  width: 100%; 
-  table-layout: fixed; 
-  border-spacing: 10px; 
-}
 
 .Column{
     display: table-cell;
@@ -34,7 +27,7 @@ body {
 }
 
 .content{
-  font-size:25px;
+  font-size:100px;
 }
 
 .foot {
