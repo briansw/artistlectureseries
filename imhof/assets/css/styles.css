@@ -7,16 +7,24 @@ body {
   font-weight: 400;
   color: #3D3D3D;
   background-color: #000000;
-  
+  background-image: url('https://static2.giessener-allgemeine.de/storage/image/4/7/2/9/329274_artdetail_1orZxs_S7YReh.jpg');
+}
+
+.text {
+  position: relative;
+  margin:100px;
 }
 
 .series{
 
 }
-.artist,
-.title,
-.date,
-.time,
+.artist {
+  font-size: 100px;
+}
+
+.title
+.date
+.time
 .location {
   font-size: 100px;
   line-height: 1;
