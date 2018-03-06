@@ -6,12 +6,35 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.series,
-.artist,
-.title,
-.date,
-.time,
-.location {
-  font-size: 100px;
-  line-height: 1;
+.series{
+  position: relative;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+
 }
+.artist{  
+  position: absolute;
+  font-size: 120px;
+  font-family: Helvetica, Arial, sans-serif;
+  top: 120px;
+  text-transform: uppercase;
+}
+.title{
+    position: absolute;
+    font-size: 120px;
+    font-family: Helvetica, Arial, sans-serif;
+    top: 220px;
+  }
+.contents{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    top:600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 
+.time,
+.location,  */
