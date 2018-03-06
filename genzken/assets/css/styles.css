@@ -8,10 +8,12 @@ body {
 
 .series{
     position: relative;
-    font-size: 30px;
+    font-size: 50px;
     top: 2px;
     float: center;
     text-align: center;
+    text-transform: uppercase;
+    z-index:5;
 }
 
 .video{
@@ -25,10 +27,18 @@ body {
     position: absolute;
     font-size: 120px;
     top: 400px;
+    color: #FFCB0C;
     text-transform: uppercase;
     float: right;
     text-align: right;
     right: 20px;
+    text-align: center;
+}
+
+.artist:hover{
+  color:#fff;
+  background-color:#000;
+  font-style:italic;
 }
 .title{
   position: absolute;
@@ -42,9 +52,10 @@ body {
 
 .info{
   position: absolute;
-  font-size: 30px;
+  font-size: 80px;
   font-family: 'Times New Roman', Times, serif;
-  text-align: left;
+  font-weight: 300;
+  text-align: right;
   top:640px;
   margin-left: auto;
   margin-right: auto;
