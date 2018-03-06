@@ -68,3 +68,17 @@ ul{
 .drip3:hover{
   transform: rotate(10deg);
 }
+
+.quote{
+  font-size: 125px;
+  color: yellow;
+  animation: blink-animation .2s steps(3,start) infinite;
+  -webkit-animation: blink-animation .2s steps(3,start) infinite;
+}
+
+
+@keyframes blink-animation{
+  100%{
+    visibility: hidden;
+  }
+}
