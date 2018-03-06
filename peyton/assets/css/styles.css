@@ -11,8 +11,11 @@ h1 {
 }
 
 
-.series,
-.artist,
+.series {
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+.artist 
 .title { 
   font-size: 50px;
 }
@@ -21,4 +24,24 @@ h1 {
 .location {
   font-size: 20px;
   line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+a:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: green;
+}
+
+.buy {
+ font-family: 'Libre Barcode 39 Extended', cursive;
+ font-size: 30px;
+ text-align: right;
 }
