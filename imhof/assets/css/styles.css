@@ -5,9 +5,10 @@ body {
   padding: 10;
   font-family: 'Cinzel', serif;
   font-weight: 400;
-  color: #3D3D3D;
-  background-color: #000000;
+  color: white;
+  background-color: rgba(65, 121, 185, 0.699);
   background-image: url('https://static2.giessener-allgemeine.de/storage/image/4/7/2/9/329274_artdetail_1orZxs_S7YReh.jpg');
+  background-blend-mode: multiply;
   
 }
 
@@ -55,4 +56,13 @@ a {
 
 a:hover {
   color:skyblue;
+}
+
+.triangle {
+  height: 0;
+  width: 0;
+  border-left: 100px solid white;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-top: 100px solid transparent;
 }
