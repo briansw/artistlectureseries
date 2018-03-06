@@ -14,11 +14,11 @@ h1 {
 .series,
 .artist,
 .title { 
-  font-size: 5px;
+  font-size: 50px;
 }
 .date,
 .time,
 .location {
-  font-size: 5px;
+  font-size: 20px;
   line-height: 1;
 }
