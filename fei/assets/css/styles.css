@@ -3,6 +3,7 @@
 body {
   margin: 50px;
   padding: 0;
+
   font-family: Courier New, Courier, monospace;
   color: lightskyblue;
   font-style: oblique;
@@ -10,10 +11,31 @@ body {
 
 .series,
 .artist,
+.website,
 .title,
 .date,
 .time,
 .location {
   font-size: 75px;
   line-height: .75;
+}
+
+.artist{
+  color:#fff;
+  text-transform:uppercase;
+}
+
+.artist:hover{
+  background: #000;
+  font-size:130px;
+}
+
+.cao{
+  display:none;
+}
+
+.artist{
+  font-style: italic;
+  font-size: 200px;
+  font-family: 'Times New Roman', Times, serif;
 }

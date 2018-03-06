@@ -6,12 +6,46 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.series,
-.artist,
-.title,
-.date,
-.time,
-.location {
-  font-size: 100px;
-  line-height: 1;
+.series{
+    position: relative;
+    font-size: 30px;
+    top: 2px;
+    float: center;
+    text-align: center;
+}
+
+.video{
+  position: absolute;
+  width:50%;
+  top:100px;
+  left: 27%;
+}
+
+.artist{ 
+    position: absolute;
+    font-size: 120px;
+    top: 400px;
+    text-transform: uppercase;
+    float: right;
+    text-align: right;
+    right: 20px;
+}
+.title{
+  position: absolute;
+  font-size: 120px;
+  top: 510px;
+  float: right;
+  text-align: right;
+  right: 20px;
+
+}
+
+.info{
+  position: absolute;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  top:640px;
+  margin-left: auto;
+  margin-right: auto;
 }
