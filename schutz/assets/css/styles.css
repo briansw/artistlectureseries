@@ -7,6 +7,7 @@ body {
   background-image: url("ds22.jpg");
   background: linear-gradient(to right, #e8f7ec , #b6edc6); 
   text-align: center;
+  
 }
 
 .wrapper {
@@ -57,6 +58,58 @@ img:hover {
 
 .date,
 .time,
+
+#star {
+  width: 0;
+  height: 0;
+  margin: 50px 0;
+  color: #fc2e5a;
+  position: relative;
+  display: block;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #fc2e5a;
+  border-left: 100px solid transparent;
+  -moz-transform: rotate(35deg);
+  -webkit-transform: rotate(35deg);
+  -ms-transform: rotate(35deg);
+  -o-transform: rotate(35deg);
+}
+
+#star:before {
+  height: 0;
+  width: 0;
+  position: absolute;
+  display: block;
+  top: -45px;
+  left: -65px;
+  border-bottom: 80px solid #fc2e5a;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  content: '';
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+  -ms-transform: rotate(-35deg);
+  -o-transform: rotate(-35deg);
+}
+
+#star:after {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  display: block;
+  top: 3px;
+  left: -105px;
+  color: #A00000;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #A00000;
+  border-left: 100px solid transparent;
+  -webkit-transform: rotate(-70deg);
+  -moz-transform: rotate(-70deg);
+  -ms-transform: rotate(-70deg);
+  -o-transform: rotate(-70deg);
+}
+
 .location {
   font-size: 90px;
   font-family: 'Crushed', cursive;
