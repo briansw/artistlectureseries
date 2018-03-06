@@ -1,5 +1,8 @@
 # Artist Lecture Series
 
+### Get started
+- Accept your invite to join the repo: https://github.com/briansw/artistlectureseries/invitations
+
 ### Steps
 1. Pull changes from Github
 2. Create a new branch and name it `username-artistname`, ie, `briansw-von-bonin`
