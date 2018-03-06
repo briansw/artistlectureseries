@@ -49,3 +49,9 @@ body {
 .emmit:hover {
   filter: invert();
 }
+
+a {
+  font-size: 20px;
+  font-family: 'Crushed', cursive;
+  line-height: 1;
+}
