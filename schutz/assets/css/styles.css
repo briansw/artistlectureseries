@@ -28,7 +28,11 @@ body {
   color: pink;
 }
 
-.title,
+.title {
+  font-size: 50px;
+  font-family: 'Crushed', cursive;
+}
+
 .date,
 .time,
 .location {
