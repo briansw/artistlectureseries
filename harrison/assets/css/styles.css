@@ -4,6 +4,9 @@ body {
   margin: 50px;
   padding: 0;
   font-family: Helvetica, Arial, sans-serif;
+  align-content: center; 
+  text-align: center;
+  background-color: yellow;
 }
 
 .series,
@@ -13,5 +16,23 @@ body {
 .time,
 .location {
   font-size: 100px;
-  line-height: 1;
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+}
+
+a:hover {
+  color: white;
+}
+
+.header {
+margin-bottom: 50px;
+height: 30px;
+width: 100%;
+background-color: black;
+color: white;
+padding-top: 10px;
 }
