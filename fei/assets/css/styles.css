@@ -4,6 +4,8 @@ body {
   margin: 50px;
   padding: 0;
   font-family: Helvetica, Arial, sans-serif;
+  background: #ff0000;
+
 }
 
 .series,
@@ -15,3 +17,18 @@ body {
   font-size: 100px;
   line-height: 1;
 }
+
+.artist{
+  color:#fff;
+  text-transform:uppercase;
+}
+
+.artist:hover{
+  background: #000;
+  font-size:130px;
+}
+
+.cao{
+  display:none;
+}
+
