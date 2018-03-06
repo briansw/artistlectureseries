@@ -3,7 +3,7 @@
 body {
   margin: 50px;
   padding: 0;
-  font-family: avenir;
+  font-family: roboto;
   align-content: center; 
   text-align: center;
   background-color: black;
@@ -20,9 +20,15 @@ body {
   line-height: 1.5;
 }
 
+.artist{
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
 .a {
   text-decoration: none;
   color: white;
+  text-align:center;
 }
 
 a:hover {
@@ -59,4 +65,10 @@ padding-right: 10px;
 
 .foot{
   color:white;
+}
+
+img:hover{
+    filter: gray; 
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .8s ease-in-out;
 }
