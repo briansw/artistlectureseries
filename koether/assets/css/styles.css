@@ -20,14 +20,6 @@ body {
   line-height: 1.1;
 }
 
-.book {
-  width: 130px;
-  height: 195px;
-  background: url("assets/img/book3.jpg") no-repeat;
-  margin: 50px;
-
-}
-
 .book:hover {
     background: url("assets/img/book3.jpg") no-repeat;
 }
