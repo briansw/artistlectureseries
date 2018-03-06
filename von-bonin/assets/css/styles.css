@@ -60,3 +60,16 @@ body {
   text-align: left;
   left:0;
 }
+
+.tagline {
+  position: absolute;
+  bottom: 30px;
+  z-index: 3;
+  animation: flashing 0.1s infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes flashing {
+  from {color:black;}
+  to {color:white;}
+}
