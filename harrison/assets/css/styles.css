@@ -6,7 +6,7 @@ body {
   font-family: avenir;
   align-content: center; 
   text-align: center;
-  background-color: yellow;
+  background-color: black;
   
 }
 
@@ -20,9 +20,9 @@ body {
   line-height: 1.5;
 }
 
-a {
+.a {
   text-decoration: none;
-  color: yellow;
+  color: white;
 }
 
 a:hover {
@@ -31,11 +31,32 @@ a:hover {
 
 .header {
 margin-bottom: 50px;
+left: 300px;
+width: 500px;
 height: 50px;
-width: 100%;
 background-color: black;
 color: white;
 padding-top: 10px;
 padding-left: 10px;
 padding-right: 10px;
+}
+
+.title{
+  margin: 30px 0;
+  color: white;
+  transition: .5s ease;
+  text-shadow: 0px 0px 10px blue,
+  0px 0px 20px blue,
+  0px 0px 30px blue,
+  0px 0px 40px blue,
+  0px 0px 50px blue,
+  0px 0px 60px blue;
+}
+
+.title:hover{
+	color: black;
+}
+
+.foot{
+  color:white;
 }
