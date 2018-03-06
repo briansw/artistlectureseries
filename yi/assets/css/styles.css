@@ -6,11 +6,11 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.series,
-.artist,
-.title,
-.date,
-.time,
+.series
+.artist
+.title
+.date
+.time
 .location {
   font-size: 100px;
   line-height: 1;
@@ -35,25 +35,40 @@ body {
 }
 
 .series {
-  color: #f7b23b;
+  color: #f7b23b; 
+  font-family: 'Crushed', cursive;
+  font-family: 'Bungee Outline', cursive;
+  font-size: 200px;
 }
 
 .artist {
   color: #db5304;
+  font-family: 'Crushed', cursive;
+font-family: 'Bungee Outline', cursive;
+font-family: 'Bungee', cursive;
 }
 
 .date{
   margin-left: 40vw;
+  font-family: 'Crushed', cursive;
+font-family: 'Bungee Outline', cursive;
+font-family: 'Bungee', cursive;
 }
 .time{
   margin-left: 40vw;
+  font-family: 'Crushed', cursive;
+font-family: 'Bungee Outline', cursive;
+font-family: 'Bungee', cursive;
 
 
 }
 .location {
   margin-left: 40vw;
   font-size: 75px;
+  font-family: 'Crushed', cursive;
+font-family: 'Bungee Outline', cursive;
+font-family: 'Bungee', cursive;
 
 }
 
-.date {margin-top: 10vh;}
+.date 
