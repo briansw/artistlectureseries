@@ -79,4 +79,34 @@ font-family: 'Bungee', cursive;
 
 }
 
-.date 
+.weird-shape {
+  top: 400px;
+  position: relative;
+}
+
+.shape1{
+  position: fixed;
+  top: 80px;
+  width: 200px;
+	height: 100px;
+  background: red;
+  border-radius: 50%;
+}
+
+.shape2 {
+  width: 400px;
+	height: 300px;
+  background: red;
+  position: fixed;
+  border-radius: 50%;
+  left: 180px;
+}
+
+.shape3 {
+  width: 800px;
+	height: 600px;
+  background: red;
+  position: fixed;
+  border-radius: 50%;
+  left: 180px;
+}
