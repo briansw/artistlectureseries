@@ -56,3 +56,24 @@ img {
   top: 0px;
   left: 0px;
 }
+
+.china {
+  margin: 100px;
+}
+.rectangle {
+  width: 200px;
+	height: 100px;
+  background: #fff;
+  border: 1px solid black;
+  position: relative;
+}
+
+.circle {
+  margin-left: 75px;
+  margin-top: 20px;
+  width: 50px;
+	height: 50px;
+	background: red;
+  border-radius: 50px;
+
+}
