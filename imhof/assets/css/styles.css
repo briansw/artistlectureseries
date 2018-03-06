@@ -2,7 +2,7 @@
 
 body {
   margin: 50px;
-  padding: 0;
+  padding: 10;
   font-family: 'Cinzel', serif;
   font-weight: 400;
   color: #3D3D3D;
@@ -28,7 +28,7 @@ body {
 .time
 .location {
   font-size: 100px;
-  line-height: 1;
+  line-height: 2;
 }
 
 .series,
@@ -44,15 +44,15 @@ body {
   text-align: center;
   font-family: 'helvetica';
   font-size: 100px;
-  border: solid 10px #000;
-  width: 400px;
+  border: solid 12px #3D3D3D;
+  width: 600px;
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #3D3D3D;
 }
 
 a:hover {
-  color: #457;
+  color:skyblue;
 }
