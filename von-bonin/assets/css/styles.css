@@ -6,6 +6,7 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background-color: plum;
   text-align: right;
+  line-height: 2;
 }
 
 .series{
@@ -18,7 +19,7 @@ body {
 .artist{  
   position: absolute;
   color: #fff;
-  font-size: 120px;
+  font-size: 100px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   top: 120px;
   text-transform: uppercase;
