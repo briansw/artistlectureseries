@@ -3,7 +3,9 @@
 body {
   margin: 50px;
   padding: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Courier New, Courier, monospace;
+  color: lightskyblue;
+  font-style: oblique;
 }
 
 .series,
@@ -12,6 +14,6 @@ body {
 .date,
 .time,
 .location {
-  font-size: 100px;
-  line-height: 1;
+  font-size: 75px;
+  line-height: .75;
 }
