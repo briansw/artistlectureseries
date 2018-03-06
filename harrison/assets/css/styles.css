@@ -36,6 +36,8 @@ a:hover {
 }
 
 .header {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
 margin-bottom: 50px;
 left: 300px;
 width: 500px;
@@ -45,6 +47,7 @@ color: white;
 padding-top: 10px;
 padding-left: 10px;
 padding-right: 10px;
+text-align: left;
 }
 
 .title{
@@ -72,3 +75,9 @@ img:hover{
     -webkit-filter: grayscale(1);
     -webkit-transition: all .8s ease-in-out;
 }
+
+.work img{
+  width:350px;
+  height: 400px;
+}
+
