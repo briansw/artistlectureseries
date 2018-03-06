@@ -22,7 +22,7 @@ body {
 
 .artist{
   text-decoration: underline;
-  text-transform: uppercase;
+  text-transform: lowercases;
 }
 
 .a {
