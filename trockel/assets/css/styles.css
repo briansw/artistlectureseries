@@ -30,6 +30,12 @@ body {
   font-size:100px;
 }
 
+#rectangle {
+	width: 200px;
+	height: 100px;
+	background: rgb(167, 25, 25);
+}
+			
 .foot {
   font-size: 20px;
   text-transform: uppercase;
