@@ -40,3 +40,12 @@ body {
   font-family: 'Crushed', cursive;
   line-height: 1;
 }
+
+.emmit {
+  width: 30px;
+  height: 30px;
+}
+
+.emmit:hover {
+  filter: invert();
+}
