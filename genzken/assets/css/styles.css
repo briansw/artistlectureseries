@@ -20,6 +20,7 @@ body {
   top:100px;
   left: 27%;
 }
+
 .artist{ 
     position: absolute;
     font-size: 120px;
@@ -28,7 +29,6 @@ body {
     float: right;
     text-align: right;
     right: 20px;
-    text-shadow: 10px #f00;
 }
 .title{
   position: absolute;
