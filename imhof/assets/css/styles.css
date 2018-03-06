@@ -3,7 +3,9 @@
 body {
   margin: 50px;
   padding: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Veranda;
+  background-color: gray;
+  
 }
 
 .series,
