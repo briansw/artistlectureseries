@@ -5,11 +5,14 @@ body {
   padding: 0;
   font-family: 'Cinzel', serif;
   font-weight: 400;
-  background-color: gray;
+  color: #3D3D3D;
+  background-color: #000000;
   
 }
 
-.series,
+.series{
+
+}
 .artist,
 .title,
 .date,
