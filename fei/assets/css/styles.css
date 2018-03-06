@@ -5,11 +5,13 @@ body {
   padding: 0;
   font-family: Helvetica, Arial, sans-serif;
   background: #ff0000;
+  text-align: center;
 
 }
 
 .series,
 .artist,
+.website,
 .title,
 .date,
 .time,
@@ -32,3 +34,8 @@ body {
   display:none;
 }
 
+.artist{
+  font-style: italic;
+  font-size: 200px;
+  font-family: 'Times New Roman', Times, serif;
+}
