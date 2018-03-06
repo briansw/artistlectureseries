@@ -20,10 +20,6 @@ body {
   line-height: 1.1;
 }
 
-.book:hover {
-    background: url("assets/img/book3.jpg") no-repeat;
-}
-
 @keyframes bgPulse {
   from {background: black;}
   to {background: #fff;}
