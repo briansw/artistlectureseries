@@ -124,3 +124,21 @@ to {background: red;}
   border-radius: 50%;
   left: 180px;
 }
+
+.shape4{
+  border-bottom: 100px solid yellow;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+}
+
+
+.shape5 {
+	width: 200px;
+	height: 200px;
+	background:#42f47d;
+  border-radius: 200px;
+  left: 380px;
+  position:fixed;
+}
