@@ -8,3 +8,4 @@
 5. Push changes to Github
 6. Close all open files
 7. Pass artist name tag to the left
+
