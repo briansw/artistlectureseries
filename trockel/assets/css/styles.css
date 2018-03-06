@@ -6,6 +6,7 @@ body {
   height: 100%;
   font-family: Helvetica, Arial, sans-serif;
   font-family:'Germania One', cursive;
+
   text-align: center;
   color: #fff;
   background: linear-gradient(-90deg, #009,#000)
@@ -29,6 +30,11 @@ body {
 .intro{
   font-size: 50px;
   margin: 50px 0;
+  font-size: 30px;
+}
+
+.content{
+  font-size:25px;
 }
 
 .foot {
@@ -41,9 +47,38 @@ body {
   border-spacing: 10px; 
   margin: 60px 0;
   color: white;
+
+}
+
+ul{
+  list-style: none;
 }
 
 .Column2{
   display: table-cell;
-  background-color: #d19999; 
+  background-color: red;
+}
+.drip1:hover{
+  transform:rotate(-10deg);
+}
+.drip2:hover{
+  transform: rotate(10deg);
+}
+
+.drip3:hover{
+  transform: rotate(10deg);
+}
+
+.quote{
+  font-size: 125px;
+  color: yellow;
+  animation: blink-animation .2s steps(3,start) infinite;
+  -webkit-animation: blink-animation .2s steps(3,start) infinite;
+}
+
+
+@keyframes blink-animation{
+  100%{
+    visibility: hidden;
+  }
 }
