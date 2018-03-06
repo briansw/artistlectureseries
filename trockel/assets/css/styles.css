@@ -11,26 +11,39 @@ body {
   background: linear-gradient(-90deg, #009,#000)
 }
 
-.series, 
-.date,
-.time,
-.location {
-  font-size: 18px;
-  line-height: 1;
+.head {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  display: table;
+  width: 100%; 
+  table-layout: fixed; 
+  border-spacing: 10px; 
 }
 
-.artist {
-  font-size: 300px;
-  line-height: 1;
+.Column{
+    display: table-cell;
+    background-color: red; 
 }
 
-.title {
-  font-size: 100px;
-  line-height: 1;
+.intro{
+  font-size: 50px;
+  margin: 50px 0;
 }
 
-.container {
-  margin-top:5px;
-  margin-left:5px;
- }
- 
+.foot {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  display: table;
+  width: 100%; 
+  table-layout: fixed; 
+  border-spacing: 10px; 
+  margin: 60px 0;
+  color: white;
+}
+
+.Column2{
+  display: table-cell;
+  background-color: #d19999; 
+}
