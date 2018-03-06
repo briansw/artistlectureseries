@@ -8,5 +8,6 @@
 5. Save all changes
 6. Push changes to Github
 7. Close all open files
-8. Pass artist name tag to the left
+8. Change branch back to `master`
+9. Pass artist name tag to the left
 
