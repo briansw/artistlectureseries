@@ -3,7 +3,12 @@
 body {
   margin: 50px;
   padding: 0;
+  height: 100%;
   font-family: Helvetica, Arial, sans-serif;
+  font-family:'Germania One', cursive;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(-90deg, #009,#000)
 }
 
 .head {

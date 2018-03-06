@@ -4,14 +4,48 @@ body {
   margin: 50px;
   padding: 0;
   font-family: Helvetica, Arial, sans-serif;
+  background-image: url("ds22.jpg");
+
 }
 
-.series,
-.artist,
-.title,
+.text {
+  position: absolute;
+  margin-top: 100px;
+  margin-left:100px;
+}
+.series {
+  font-size: 20px;
+  font-family: 'Crushed', cursive;
+  line-height: 1;
+}
+.artist {
+  font-size: 230px;
+  font-family: 'Crushed', cursive;
+  line-height: 1;
+}
+
+.artist:hover {
+  color: pink;
+}
+
+.title {
+  font-size: 50px;
+  font-family: 'Crushed', cursive;
+}
+
 .date,
 .time,
 .location {
-  font-size: 100px;
+  font-size: 20px;
+  font-family: 'Crushed', cursive;
   line-height: 1;
+}
+
+.emmit {
+  width: 30px;
+  height: 30px;
+}
+
+.emmit:hover {
+  filter: invert();
 }
