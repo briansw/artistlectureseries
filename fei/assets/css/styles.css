@@ -7,6 +7,7 @@ body {
   font-family: Courier New, Courier, monospace;
   color: lightskyblue;
   font-style: oblique;
+  background-image: url("/Users/nikhilmisra/artistlectureseries/fei/assets/img/cao-fei-rmb.jpg");
 }
 
 a,
@@ -21,7 +22,7 @@ a,
   opacity: 0;
   text-transform:uppercase;
   font-size: 75px;
-  line-height: .75;
+  line-height: 1;
 }
 
 .series:hover,
